@@ -8,7 +8,7 @@ public class Invoice {
     private List<InvoiceItem> items;
     private Date date;
     private double totalAmount;
-    private static final double TAX_RATE = 0.10; // 10% tax
+    private static final double TAX_RATE = 0.10;
 
     public Invoice(String invoiceId, Customer customer) {
         this.invoiceId = invoiceId;
